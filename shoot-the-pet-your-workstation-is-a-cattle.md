@@ -1,12 +1,10 @@
 # 🔫 Shoot the pet! Your workstation is a cattle.
 
-Pets vs. Cattle. You probably heard that term before. In 2011-2012, Randy Bias (@randybias) was struggle to explain to customers how AWS, cloud native apps and cloud more generally was fundanmentally different what what had gone before. He coined the terms 'pets' and 'cattles' to emphasis on disposability of cattle and the uniqueness of pets. Randy pitched the following:
+`Pets vs. Cattle`. You probably heard that term before. In 2011-2012, *Randy Bias* ([@randybias](https://twitter.com/randybias)) was struggle to explain to customers how AWS, cloud native apps and cloud more generally was fundanmentally different what what had gone before. He coined the terms *pets* and *cattles* as the analogy to the disposability of cloud services and the uniqueness of monolith servers. Randy pitched the following:
 
-```
-In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.
-```
+> In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.
 
-Since then, there has been a lot of talks about changing server management practice by using the anology for companies to build a disposable, reliable infrastructure models. Some of you might even be evangalising to your boss about replacing breaking that monolith VM into scalable services. But there is one area where it is difficult to apply the cattles mentality: end-user computing space, ie. your workstation.
+Since then, the cattle model of operation has been evangelised as one true way for building a reliable, fault-tolerant infrastructure in cloud era. But there is one area where it is often neglected to apply the cattle mentality: our end-user computing space, ie. your desktops, laptops and workstations.
 
 ## Pets? Cattle? Why workstation is usually pet?
 
